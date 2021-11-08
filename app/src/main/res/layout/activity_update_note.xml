@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddNote">
+    tools:context=".UpdateNoteActivity">
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/noteTitle"
+        android:id="@+id/noteTitleUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
-        android:background="@android:color/transparent"
         android:hint="Title"
         android:inputType="text"
         android:textColor="@color/black"
@@ -24,12 +23,11 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/noteDesc"
+        android:id="@+id/noteDescUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:background="@android:color/transparent"
         android:hint="Note Details:"
         android:inputType="textMultiLine"
         android:maxLines="7"
@@ -40,10 +38,12 @@
 
 
     <Button
-        android:id="@+id/add_btn"
+        android:id="@+id/add_btnUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Add" />
+        android:layout_margin="24dp"
+        android:text="Update" />
+
+
 
 </LinearLayout>
